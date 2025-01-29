@@ -2,7 +2,14 @@ use tiny_http::{Method, Response, Server};
 use uwuifier::uwuify_str_sse;
 
 fn main() {
-    let server = Server::http("0.0.0.0:41235").unwrap();
+    let server = Server::http(format!(
+        "0.0.0.0:{}",
+        match std::env::var("PORT") {
+            Ok(port) => port,
+            Err(_) => 41235.to_string(),
+        },
+    ))
+    .unwrap();
 
     loop {
         let mut req = match server.try_recv() {
