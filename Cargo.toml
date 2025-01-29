@@ -1,8 +1,13 @@
 [package]
 name = "UaaS"
+description = "UwU as a Service: The fastest text uwuifier in the west running behind an HTTP server."
 version = "1.0.0"
 edition = "2021"
 authors = ["Akhil Pillai"]
+readme = "README.md"
+repository = "https://github.com/ackle-dev/UaaS"
+license = "MIT"
+license-file = "LICENSE"
 
 [[bin]]
 name = "uaas"
