@@ -4,6 +4,8 @@ It's what it sounds like. The [fastest text uwuifier in the west](https://github
 
 (It's not *really* an XaaS, but it runs an HTTP server and returns uwuified text, so close enough.)
 
+There's an [uwuified version of this README](./WEADME.md). I'm too lazy to preserve the shell commands and links. Besides, it's funnier this way.
+
 ## Installation:
 
 Install from crates.io:
