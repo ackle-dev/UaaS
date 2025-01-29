@@ -7,7 +7,6 @@ authors = ["Akhil Pillai"]
 readme = "README.md"
 repository = "https://github.com/ackle-dev/UaaS"
 license = "MIT"
-license-file = "LICENSE"
 
 [[bin]]
 name = "uaas"
