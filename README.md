@@ -10,7 +10,7 @@ There's an [uwuified version of this README](./WEADME.md). I'm too lazy to prese
 
 Install from crates.io:
 ```bash
-cargo install uaas
+cargo install UaaS
 uaas
 ```
 

@@ -1,43 +1,45 @@
 # uaas: uwu as a sewvice
 
-it's nyani i-it sounds wike. /(^•ω•^) t-the [fastest t-text uwuifiew in t-the west](https://github.com/daniew-wiu-c0deb0t/uwu)... a-as a *sewvice*. ʘwʘ
+it's nyani i-it sounds wike. (U ﹏ U) t-the [fastest t-text uwuifiew in t-the west](https://github.com/daniew-wiu-c0deb0t/uwu)... a-as a *sewvice*. (///ˬ///✿)
 
-(it's n-nyot *weawwy* an x-xaas, σωσ but it wuns a-an http sewvew and wetuwns uwuified text, OwO so cwose enough.)
+(it's n-nyot *weawwy* an x-xaas, >w< but it wuns a-an http sewvew and wetuwns uwuified text, rawr so cwose enough.)
+
+thewe's an [uwuified v-vewsion of this weadme](./weadme.md). mya i'm t-too wazy to pwesewve the sheww commands a-and winks. ^^ besides, 😳😳😳 it's funniew this way. mya
 
 ## instawwation:
 
 i-instaww fwom cwates.io:
 ```bash
-cawgo instaww u-uaas
+c-cawgo instaww u-uaas
 uaas
 ```
 
 ow cwone and wun:
 ```bash
-g-git cwone https://github.com/ackwe-dev/uaas.git && cd uaas
+git cwone https://github.com/ackwe-dev/uaas.git && cd uaas
 cawgo wun
 ```
 
 ## u-usage:
 
-enviwonment vawiabwe `powt` c-can be s-set to change the powt the sewvew wuns on. 😳😳😳 by defauwt, 😳😳😳 it wuns on powt 41235, o.O b-because why nyot?
+enviwonment vawiabwe `powt` can be set to change the powt the s-sewvew wuns on. by defauwt, 😳 it wuns o-on powt 41235, -.- b-because why nyot?
 
 ```bash
-powt=8001 uaas # if instawwed via cawgo
-powt=8001 cawgo w-wun # if cwoned
+p-powt=8001 u-uaas # if instawwed via cawgo
+powt=8001 c-cawgo wun # if cwoned
 ```
 
-then, ( ͡o ω ͡o ) you c-can uwuify text b-by sending a put w-wequest to `http://wocawhost:41235/` (ow n-nyanievew powt you choose) with the p-pwaintext in the body (not json!). (U ﹏ U)
+then, 🥺 you can uwuify t-text by sending a put wequest to `http://wocawhost:41235/` (ow nyanievew powt you choose) with the pwaintext in the body (not json!). o.O
 
-fow exampwe, (///ˬ///✿) u-using `cuww`:
+f-fow exampwe, /(^•ω•^) using `cuww`:
 ```bash
-cuww -x put -d "hewwo wowwd" http://wocawhost:41235/ # wetuwns "hewwo wowwd"
+c-cuww -x p-put -d "hewwo w-wowwd" http://wocawhost:41235/ # wetuwns "hewwo wowwd"
 ```
 
-## h-how's it wowk?
+## how's it wowk?
 
-i've g-got nyo cwue, >w< i j-just hooked up [the `uwuify` c-cwate](https://cwates.io/cwates/uwuify) to an http sewvew. rawr
+i've g-got nyo cwue, nyaa~~ i-i just hooked up [the `uwuify` c-cwate](https://cwates.io/cwates/uwuify) t-to an http sewvew. nyaa~~
 
-## this code sucks. mya
+## t-this code sucks. :3
 
-yeah, p-pwobabwy. ^^ i b-bawewy know any wust. 😳😳😳 you can impwove i-it with a p-pw if you'd wike. mya
+yeah, 😳😳😳 pwobabwy. i-i bawewy know any wust. (˘ω˘) you can impwove it with a-a pw if you'd wike. ^^
