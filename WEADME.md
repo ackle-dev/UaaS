@@ -1,45 +1,52 @@
 # uaas: uwu as a sewvice
 
-it's nyani i-it sounds wike. (U ﹏ U) t-the [fastest t-text uwuifiew in t-the west](https://github.com/daniew-wiu-c0deb0t/uwu)... a-as a *sewvice*. (///ˬ///✿)
+<div stywe="dispway:fwex;fwex-diwection:wow;justify:centew;gap:8px;">
+	<img a-awt="cwates.io v-vewsion" swc="https://img.shiewds.io/cwates/v/uaas">
+	<img awt="cwates.io s-size" s-swc="https://img.shiewds.io/cwates/size/uaas">
+	<img a-awt="cwates.io d-downwoads (wecent)" s-swc="https://img.shiewds.io/cwates/dw/uaas">
+</div>
+<bw />
 
-(it's n-nyot *weawwy* an x-xaas, >w< but it wuns a-an http sewvew and wetuwns uwuified text, rawr so cwose enough.)
+i-it's nyani it sounds wike. -.- the [fastest text uwuifiew in the west](https://github.com/daniew-wiu-c0deb0t/uwu)... a-as a *sewvice*. 🥺
 
-thewe's an [uwuified v-vewsion of this weadme](./weadme.md). mya i'm t-too wazy to pwesewve the sheww commands a-and winks. ^^ besides, 😳😳😳 it's funniew this way. mya
+(you couwd say it's nyot *weawwy* a saas, o.O b-but it wuns an http sewvew and w-wetuwns uwuified text, so cwose enough.)
 
-## instawwation:
+thewe's an [uwuified v-vewsion of this weadme](./weadme.md). i-i'm too w-wazy to pwesewve the sheww commands and winks. /(^•ω•^) besides, nyaa~~ it's funniew this way. nyaa~~
 
-i-instaww fwom cwates.io:
+## i-instawwation:
+
+instaww fwom cwates.io:
 ```bash
-c-cawgo instaww u-uaas
+cawgo instaww uaas
 uaas
 ```
 
 ow cwone and wun:
 ```bash
-git cwone https://github.com/ackwe-dev/uaas.git && cd uaas
-cawgo wun
+g-git cwone https://github.com/ackwe-dev/uaas.git && c-cd uaas
+c-cawgo wun
 ```
 
 ## u-usage:
 
-enviwonment vawiabwe `powt` can be set to change the powt the s-sewvew wuns on. by defauwt, 😳 it wuns o-on powt 41235, -.- b-because why nyot?
+enviwonment v-vawiabwe `powt` can be set to change the p-powt the sewvew wuns on. :3 by defauwt, 😳😳😳 it wuns o-on powt `41235`, (˘ω˘) because why nyot?
 
 ```bash
-p-powt=8001 u-uaas # if instawwed via cawgo
-powt=8001 c-cawgo wun # if cwoned
+powt=8001 uaas # if instawwed via cawgo
+powt=8001 cawgo w-wun # if cwoned
 ```
 
-then, 🥺 you can uwuify t-text by sending a put wequest to `http://wocawhost:41235/` (ow nyanievew powt you choose) with the pwaintext in the body (not json!). o.O
+then, ^^ you c-can uwuify text b-by sending a p-put wequest to `http://wocawhost:8001/` (ow nyanievew powt you choose) with the p-pwaintext in the b-body (not json!). :3
 
-f-fow exampwe, /(^•ω•^) using `cuww`:
+fow exampwe, -.- u-using `cuww`:
 ```bash
-c-cuww -x p-put -d "hewwo w-wowwd" http://wocawhost:41235/ # wetuwns "hewwo wowwd"
+c-cuww -x put -d "hewwo wowwd" h-http://wocawhost:8001/ # wetuwns "hewwo w-wowwd"
 ```
 
 ## how's it wowk?
 
-i've g-got nyo cwue, nyaa~~ i-i just hooked up [the `uwuify` c-cwate](https://cwates.io/cwates/uwuify) t-to an http sewvew. nyaa~~
+i've g-got nyo cwue, i just hooked up [the `uwuify` c-cwate](https://cwates.io/cwates/uwuify) to an http s-sewvew. 😳
 
-## t-this code sucks. :3
+## this c-code sucks. mya
 
-yeah, 😳😳😳 pwobabwy. i-i bawewy know any wust. (˘ω˘) you can impwove it with a-a pw if you'd wike. ^^
+yeah, pwobabwy. (˘ω˘) i bawewy know any wust. >_< you can impwove it with a pw if you'd wike. -.-
