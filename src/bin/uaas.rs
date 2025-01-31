@@ -1,4 +1,4 @@
-use tiny_http::{Method, Request, Response, Server};
+use tiny_http::{Header, Method, Request, Response, Server};
 use uwuifier::uwuify_str_sse;
 
 fn main() {
@@ -28,6 +28,10 @@ fn main() {
                 Response::from_string(
                     "unknown w-woute. s-sewvew onwy handwes put wequests to `/`. σωσ",
                 )
+                .with_header(Header::from_bytes(&b"Content-Type"[..], &b"text/plain"[..]).unwrap())
+                .with_header(
+                    Header::from_bytes(&b"Access-Control-Allow-Origin"[..], &b"*"[..]).unwrap(),
+                )
                 .with_status_code(400),
             )
             .unwrap();
@@ -38,6 +42,10 @@ fn main() {
             req.respond(
                 Response::from_string(
                     "invawid wequest method. rawr x3 s-sewvew onwy h-handwes put wequests t-to `/` :3",
+                )
+                .with_header(Header::from_bytes(&b"Content-Type"[..], &b"text/plain"[..]).unwrap())
+                .with_header(
+                    Header::from_bytes(&b"Access-Control-Allow-Origin"[..], &b"*"[..]).unwrap(),
                 )
                 .with_status_code(400),
             )
@@ -54,15 +62,26 @@ fn main() {
                 Response::from_string(
                     "empty w-wequest body. σωσ p-pwease pwovide a-a stwing to uwuify nyaa~",
                 )
+                .with_header(Header::from_bytes(&b"Content-Type"[..], &b"text/plain"[..]).unwrap())
+                .with_header(
+                    Header::from_bytes(&b"Access-Control-Allow-Origin"[..], &b"*"[..]).unwrap(),
+                )
                 .with_status_code(400),
             )
             .unwrap();
             continue;
         }
 
-        req.respond(Response::from_string(uwuify_str_sse(&buf)).with_status_code(200))
-            .inspect_err(|e| eprintln!("{}", e))
-            .unwrap();
+        req.respond(
+            Response::from_string(uwuify_str_sse(&buf))
+                .with_header(Header::from_bytes(&b"Content-Type"[..], &b"text/plain"[..]).unwrap())
+                .with_header(
+                    Header::from_bytes(&b"Access-Control-Allow-Origin"[..], &b"*"[..]).unwrap(),
+                )
+                .with_status_code(200),
+        )
+        .inspect_err(|e| eprintln!("{}", e))
+        .unwrap();
     }
 }
 
